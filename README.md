@@ -14,7 +14,7 @@ Open KeePass and Firefox after Login.
 1. Under your `USERPROFILE`, extract `login-main.zip`.
 
 **Example**:
-```
+```batch
 C:\Users\nso89\login
 ```
 2. Open `Task Scheduler`, and schedule a basic task to run after log on using `run.bat`.
