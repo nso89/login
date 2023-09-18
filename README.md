@@ -17,7 +17,7 @@ Open KeePass and Firefox after Login.
 ```
 C:\Users\nso89\login
 ```
-2. Open `Task Scheduler` and schedule a basic task to run after log on using `run.bat`.
+2. Open `Task Scheduler`, and schedule a basic task to run after log on using `run.bat`.
 
 #### <a name="running-the-script"></a>Running the Script
 1. The `run.bat` opens `KeePass` and `firefox`.
