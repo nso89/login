@@ -8,10 +8,11 @@ Project Description
 * [Cleanup](#cleanup)
 
 #### <a name="prerequisites"></a>Prerequisites
-* A complete install of `Python 3.x`.
+* Under `Program FIles`, a complete install of `KeePass`.
+* Under `Program Files(x86)`, a complete install of `Firefox`.
 
 #### <a name="setup"></a>Setup
-1. Under your `USERPROFILE`, extract `program-name-main.zip`.
+1. Under your `USERPROFILE`, extract `login-main.zip`.
 
 **Example**:
 ```
