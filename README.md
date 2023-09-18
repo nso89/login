@@ -25,10 +25,13 @@ C:\Users\nso89\login
 **Example**:
 ```batch
 Welcome, nso89
+
 Starting C:\Program Files\KeePass Password Safe 2\KeePass.exe
 Press any key to continue . . .
 Starting C:\Program Files (x86)\Mozilla Firefox\firefox.exe
 Press any key to continue . . .
+
+Goodbye, nso89
 
 C:\Users\nso89>
 ```
