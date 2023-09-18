@@ -20,7 +20,7 @@ C:\Users\nso89\login
 2. Open `Task Scheduler`, and schedule a basic task to run after log on using `run.bat`.
 
 #### <a name="running-the-script"></a>Running the Script
-1. The `run.bat` opens `KeePass` and `firefox`.
+1. The `run.bat` starts, opens `KeePass` and `firefox`, and exits.
 
 **Example**:
 ```batch
@@ -35,8 +35,6 @@ Goodbye, nso89
 
 C:\Users\nso89>
 ```
-2. `run.bat` exits.
-
 #### <a name="configuration"></a>Configuration
 If you need to change the `KeePass` or `Firefox` variables:
 
