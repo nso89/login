@@ -5,9 +5,13 @@ set keepass=%ProgramFiles%\KeePass Password Safe 2\KeePass.exe
 set browser=%ProgramFiles(x86)%\Mozilla Firefox\firefox.exe
 
 echo Welcome, %username%
+echo.
 
 call:startup "%keepass%"
 call:startup "%browser%"
+
+echo.
+echo Goodbye, %username%
 
 exit /b
 
