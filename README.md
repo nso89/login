@@ -1,11 +1,10 @@
-# project-name
-Project Description
+# login
+Open KeePass and Firefox after Login.
 
 * [Prerequisites](#prerequisites)
 * [Setup](#setup)
 * [Running the Script](#running-the-script)
 * [Configuration](#configuration)
-* [Cleanup](#cleanup)
 
 #### <a name="prerequisites"></a>Prerequisites
 * Under `Program FIles`, a complete install of `KeePass`.
@@ -16,26 +15,34 @@ Project Description
 
 **Example**:
 ```
+C:\Users\nso89\login
 ```
+2. Open `Task Scheduler` and schedule a basic task to run after log on using `run.bat`.
+
 #### <a name="running-the-script"></a>Running the Script
-1. Open `cmd.exe` and change the directory to the `program-name-main` folder.
+1. The `run.bat` opens `KeePass` and `firefox`.
 
 **Example**:
-```
-```
-2. Start the `main.py` script.
+```batch
+Welcome, nso89
+Starting C:\Program Files\KeePass Password Safe 2\KeePass.exe
+Press any key to continue . . .
+Starting C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+Press any key to continue . . .
 
-**Example**:
+C:\Users\nso89>
 ```
-```
+2. `run.bat` exits.
+
 #### <a name="configuration"></a>Configuration
-If you need to change the `insert-variable-name(s)`:
+If you need to change the `KeePass` or `Firefox` variables:
 
-1. Open the `main.py` script in any text editor.
-2. Locate the `insert-variable-name(s)` variable.
+1. Open the `run.bat` script in any text editor.
+2. Locate the `keepass` and `firefox` variables.
 
 **Example**:
-```
+```batch
+set keepass=%ProgramFiles%\KeePass Password Safe 2\KeePass.exe
+set browser=%ProgramFiles(x86)%\Mozilla Firefox\firefox.exe
 ```
 3. When you finish changing the variables, save and close the editor.
-#### <a name="cleanup"></a>Clean Up
