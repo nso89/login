@@ -31,15 +31,13 @@ Press any key to continue . . .
 Starting C:\Program Files (x86)\Mozilla Firefox\firefox.exe
 Press any key to continue . . .
 
-Goodbye, nso89
-
 C:\Users\nso89>
 ```
 #### <a name="configuration"></a>Configuration
 If you need to change the `KeePass` or `Firefox` variables:
 
 1. Open the `run.bat` script in any text editor.
-2. Locate the `browser` and `keepass` variables.
+2. Locate the `keepass` and `browser` variables.
 
 **Example**:
 ```batch
