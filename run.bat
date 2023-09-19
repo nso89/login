@@ -10,13 +10,10 @@ echo.
 call:startup "%keepass%"
 call:startup "%browser%"
 
-echo.
-echo Goodbye, %username%
-
 exit /b
 
 :startup
 echo Starting %~1
 start "" "%~1"
 pause
-goto:eof 
+goto:eof
