@@ -7,7 +7,7 @@ Open KeePass and Firefox after Login.
 * [Configuration](#configuration)
 
 #### <a name="prerequisites"></a>Prerequisites
-* Under `Program FIles`, a complete install of `KeePass`.
+* Under `Program Files`, a complete install of `KeePass`.
 * Under `Program Files(x86)`, a complete install of `Firefox`.
 
 #### <a name="setup"></a>Setup
@@ -39,7 +39,7 @@ C:\Users\nso89>
 If you need to change the `KeePass` or `Firefox` variables:
 
 1. Open the `run.bat` script in any text editor.
-2. Locate the `keepass` and `firefox` variables.
+2. Locate the `browser` and `keepass` variables.
 
 **Example**:
 ```batch
